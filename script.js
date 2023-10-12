@@ -15,7 +15,12 @@ function createNotification() {
     const avatarUrl = inputAvatar.value;
     const headingText = inputHeading.value;
     const contentText = inputContent.value;
-    const urlButtonLink = inputUrlButton.value;
+    let urlButtonLink = inputUrlButton.value;
+
+    // Check if the URL is absolute, and if not, make it absolute
+    if (!urlButtonLink.startsWith('http://') && !urlButtonLink.startsWith('https://')) {
+        urlButtonLink = 'http://' + urlButtonLink;
+    }
 
     if (avatarUrl && headingText && contentText && urlButtonLink) {
         const notificationItem = document.createElement('a');
