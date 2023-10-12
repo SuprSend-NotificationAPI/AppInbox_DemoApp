@@ -1,4 +1,3 @@
-<script>
     const notificationButton = document.getElementById('notificationButton');
     const notificationPanel = document.getElementById('notificationPanel');
     const inputAvatar = document.getElementById('avatar');
@@ -94,4 +93,3 @@ notificationsIcon.addEventListener('click', () => {
   notificationsIcon.style.animationPlayState = 'paused'; // Pause the animation on click
 });
 
-</script>
