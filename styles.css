@@ -652,7 +652,6 @@
 
     .notification-container h2 {
     font-size: 24px; /* Increase the font size */
-    font-weight: bold; /* Make it bold */
     color: #333; /* Change text color */
     margin-bottom: 10px; /* Adjust spacing */
     border-bottom: 2px solid #007bff; /* Add an underline */
