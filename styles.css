@@ -638,7 +638,6 @@
     .notification-container {
         font-family: "Urbanist", sans-serif;
         line-height: 1.5;
-        min-height: 100vh;
         padding-top: 5vw;
         padding-bottom: 5vw;
         font-weight: bold;
