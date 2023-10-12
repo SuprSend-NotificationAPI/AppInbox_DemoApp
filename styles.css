@@ -636,19 +636,29 @@
     }
 
     .notification-container {
+        font-family: "Urbanist", sans-serif;
+        line-height: 1.5;
+        min-height: 100vh;
+        padding-top: 5vw;
+        padding-bottom: 5vw;
+        font-weight: bold;
+        background-color: var(--c-gray-400);
         width: 100%;
+        max-width: 400px;
         background-color: #fff;
         border-radius: 12px;
         box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
         padding: 20px;
-        justify-content: center; /* Center horizontally */
-        align-items: center; /* Center vertically */
     }
 
     .notification-container h2 {
-        font-size: 24px;
-        margin-bottom: 20px;
-    }
+    font-size: 24px; /* Increase the font size */
+    font-weight: bold; /* Make it bold */
+    color: #333; /* Change text color */
+    margin-bottom: 10px; /* Adjust spacing */
+    border-bottom: 2px solid #007bff; /* Add an underline */
+    padding-bottom: 5px; /* Add some space under the title */
+   }
 
     .input-group {
         margin-bottom: 20px;
