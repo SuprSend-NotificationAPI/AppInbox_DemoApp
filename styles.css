@@ -28,9 +28,10 @@
         font-family: "Urbanist", sans-serif;
         line-height: 1.5;
         min-height: 100vh;
-        padding-top: 5vw;
-        padding-bottom: 5vw;
-        background-color: var(--c-gray-400);
+        padding: 2.5vw;
+        background-color: #FFFFFF;
+        justify-content: center; /* Center horizontally */
+        align-items: center; /* Center vertically */
     }
 
     img {
@@ -635,11 +636,13 @@
 
     .notification-container {
         width: 100%;
-        max-width: 400px;
+        max-width: 500px;
         background-color: #fff;
         border-radius: 12px;
         box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
         padding: 20px;
+        justify-content: center; /* Center horizontally */
+        align-items: center; /* Center vertically */
     }
 
     .notification-container h2 {
