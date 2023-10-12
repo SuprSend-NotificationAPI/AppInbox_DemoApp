@@ -1,4 +1,3 @@
-
 <script>
     const notificationButton = document.getElementById('notificationButton');
     const notificationPanel = document.getElementById('notificationPanel');
