@@ -1,0 +1,186 @@
+<div class="screen-container">
+    <!-- Screen 1 -->
+
+    <div class="screen">
+        <div class="notification-container">
+            <h2>Notification Input</h2>
+            <form id="notificationForm">
+                <div class="input-group">
+                    <label for="avatar">Avatar URL</label>
+                    <input type="text" class="input-field" id="avatar" placeholder="https://example.com/avatar.jpg" required>
+                </div>
+                <div class="input-group">
+                    <label for="heading">Notification Heading</label>
+                    <input type="text" class="input-field" id="heading" placeholder="Your heading here" required>
+                </div>
+                <div class="input-group">
+                    <label for="content">Notification Content</label>
+                    <textarea class="input-field" id="content" placeholder="Your notification content here" required></textarea>
+                </div>
+                <div class="input-group">
+                    <label for="urlButton">URL Button</label>
+                    <input type="text" class="input-field" id="urlButton" placeholder="https://example.com" required>
+                </div>
+                <button type="submit" class="submit-button">Send Notification</button>
+            </form>
+        </div>
+
+
+        <!-- Content Box -->
+        <div class="content-box">
+            <h2 style="font-size: 24px; font-weight: bold;">Instructions</h2>
+            <br>
+            <ul>
+                <li>Fill all 4 input fields with valid data.</li>
+                <li>Recommended Avatar URL image sixe: 300 x 300 px.</li>
+                <li>You can give multiple submissions. The app-inbox counter would be updated accordingly.</li>
+                <li>You can pass JSON data to SuprSend's app inbox via API.</li>
+                <!-- You can add more list items as needed. -->
+            </ul>
+            <a href="https://docs.suprsend.com/docs/in-app-inbox-template" class="cta-button">Documentation</a>
+
+        </div>
+    </div>
+
+
+    <!-- Screen 2 -->
+
+    <div class="screen">
+        <div class="phone">
+            <header class="header">
+                <div class="header-logo">
+                    <a href="https://www.suprsend.com"><img src="https://gdm-catalog-fmapi-prod.imgix.net/ProductLogo/32d7aa5c-e25a-43a4-9fa1-fe456d683755.png?w=128&h=128&fit=max&dpr=3&auto=format&q=50" alt="SuprSend Logo" /></a>
+                </div>
+                <div class="header-title">
+                    Home
+                </div>
+
+                <div class="header-buttons">
+                    <button class="notifications" id="notificationButton">
+            <i class="ai-bell"></i>
+
+          </button>
+                    <button class="avatar">
+            <a href="https://github.com/suprsend"><img src="https://cdn-icons-png.flaticon.com/512/25/25231.png" alt="GitHub Link"></a>
+          </button>
+                </div>
+                <div class="notification-panel" id="notificationPanel">
+                    <div class="notification-panel-header">Notifications</div>
+                    <ul class="notification-list">
+                        <!-- Notification items -->
+                        <a href="message.html" class="notification-panel-link">
+                            <li class="notification-item">
+                                <div class="avatar">
+                                    <img src="https://cdn-icons-png.flaticon.com/512/25/25231.png" alt="User Avatar">
+                                </div>
+                                <div class="notification-details">
+                                    <div class="notification-heading">Demo Message</div>
+                                    <div class="notification-content">You have received a new message from a friend. Click here to view it.</div>
+                                </div>
+                            </li>
+                        </a>
+                        <!-- Add more notification items here -->
+                    </ul>
+                </div>
+
+            </header>
+            <section class="title">
+                <h1>Trying SuprSend?</h1>
+                <p>Implement a powerful notification infrastructure today.</p>
+            </section>
+            <section class="search">
+                <div class="search-inner">
+                    <button class="search-button">
+            <i class="ai-search"></i>
+          </button>
+                    <input type="text" class="search-input" placeholder="Search Feature" />
+
+                </div>
+            </section>
+
+            <nav class="navigation">
+                <a href="www.suprsend.com" class="navigation-item active">Overview</a>
+                <a href="https://docs.suprsend.com/docs" class="navigation-item">Docs</a>
+                <a href="https://www.suprsend.com/products/app-inbox" class="navigation-item">App Inbox</a>
+                <a href="https://www.suprsend.com/support" class="navigation-item">Support</a>
+            </nav>
+            <section class="playlists">
+
+                <article class="card">
+                    <div class="card-inner">
+                        <span class="card-pin"></span>
+                        <div class="card-image">
+                            <img src="https://assets.codepen.io/285131/illustration-hand-with-cigarette-icon.jpg" />
+                        </div>
+                        <div class="card-content">
+                            <div class="card-meta">
+                                <span class="card-meta-number">10 min</span>
+                                <button class="card-meta-button">
+                  <i class="ai-circle-triangle-right-fill"></i>
+                </button>
+                            </div>
+                            <h2 class="card-title">App Inbox</h2>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="card">
+                    <div class="card-inner">
+                        <span class="card-pin"></span>
+                        <div class="card-image">
+                            <img src="https://assets.codepen.io/285131/hand-drawn-monster-milkshake.jpg" />
+                        </div>
+                        <div class="card-content">
+                            <div class="card-meta">
+                                <span class="card-meta-number">5 min</span>
+                                <button class="card-meta-button">
+                  <i class="ai-circle-triangle-right-fill"></i>
+                </button>
+                            </div>
+                            <h2 class="card-title">Preference Management</h2>
+                        </div>
+                    </div>
+                </article>
+            </section>
+            <section class="currently-playing">
+
+                <article class="card horizontal">
+                    <div class="card-inner">
+                        <span class="card-pin simple"></span>
+                        <div class="card-image">
+                            <img src="https://assets.codepen.io/285131/pink-pastel-juicy-banana.jpg" />
+                        </div>
+                        <div class="card-content">
+                            <div class="card-meta">
+                                <span class="card-meta-artist">Template</span>
+                                <button class="card-meta-button" style="opacity: 0;">
+                  <i class="ai-circle-triangle-right-fill"></i>
+                </button>
+                            </div>
+                            <h2 class="card-title">Build templates in under
+                                <span class="card-time">60 sec</span>
+                            </h2>
+                        </div>
+                        <span class="card-pin simple"></span>
+                    </div>
+                </article>
+            </section>
+            <footer class="menu">
+                <div class="menu-inner">
+                    <a href="#" class="menu-item active">
+            <i class="ai-home"></i>
+          </a>
+                    <a href="#" class="menu-item">
+            <i class="ai-heart"></i>
+          </a>
+                    <a href="#" class="menu-item">
+            <i class="ai-fire"></i>
+          </a>
+                    <a href="#" class="menu-item">
+            <i class="ai-gear"></i>
+          </a>
+                </div>
+            </footer>
+        </div>
+    </div>
+</div>
