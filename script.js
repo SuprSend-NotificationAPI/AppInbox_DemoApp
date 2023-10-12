@@ -20,6 +20,7 @@ function createNotification() {
     if (avatarUrl && headingText && contentText && urlButtonLink) {
         const notificationItem = document.createElement('a');
         notificationItem.href = urlButtonLink;
+        notificationItem.target = '_blank';
         notificationItem.classList.add('notification-panel-link');
 
         const listItem = document.createElement('li');
