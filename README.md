@@ -17,7 +17,6 @@ This is a simple web application that demonstrates how to create an inbox notifi
 
 You can try out a live demo of this project [here](https://suprsend-notificationapi.github.io/AppInbox_DemoApp/):
 
-<iframe src="https://suprsend-notificationapi.github.io/AppInbox_DemoApp/" title="Live Demo" width="100%" height="500" frameborder="0" scrolling="auto"></iframe>
 
 ## Features
 
