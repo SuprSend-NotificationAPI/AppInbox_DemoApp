@@ -1,6 +1,3 @@
-# AppInbox_DemoApp
-
-```markdown
 # Bell Icon App Inbox Notification
 
 This is a simple web application that demonstrates how to create an inbox notification system using HTML, CSS, and JavaScript. It includes a bell icon that displays notifications when clicked.
@@ -17,10 +14,6 @@ This is a simple web application that demonstrates how to create an inbox notifi
 - [License](#license)
 
 ## Demo
-
-## Live Demo
-
-## Live Demo
 
 You can try out a live demo of this project [here](https://suprsend-notificationapi.github.io/AppInbox_DemoApp/):
 
