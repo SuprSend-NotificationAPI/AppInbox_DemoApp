@@ -38,7 +38,7 @@ Make sure you have a modern web browser installed to run this application.
 1. Clone the repository to your local machine:
 
    ```bash
-   git clone https://github.com/yourusername/bell-icon-app.git
+   git clone https://github.com/SuprSend-NotificationAPI/AppInbox_DemoApp.git
    ```
 
 2. Open the project directory in your code editor.
