@@ -67,4 +67,5 @@ Please be sure to follow the project's code of conduct.
 This project is not open source and all rights are reserved. Unauthorized use, distribution, or reproduction is strictly prohibited.
 
 ```
+Contact @https://www.linkedin.com/in/nik-k-l/ for connecting with the author
 
