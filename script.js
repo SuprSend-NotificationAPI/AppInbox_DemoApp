@@ -7,6 +7,7 @@ const inputUrlButton = document.getElementById('urlButton');
 const notifications = document.querySelector('.notifications');
 let notificationCounter = 0;
 
+
 function updateCounter(count) {
     notifications.style.setProperty('--counter', `"${count}"`);
 }
