@@ -129,7 +129,6 @@
         &:after {
             right: -8px;
             top: 3px;
-            content: "2";
             display: flex;
             align-items: center;
             justify-content: center;
